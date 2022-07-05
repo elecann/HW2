@@ -1,0 +1,218 @@
+html{
+    background-color: rgba(147, 112, 216, 0.39);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url('../img/sfond.jpg');
+    background-size: cover;
+    height: 100%;
+}
+
+h1{
+    color:rgba(153, 50, 204, 0.54);
+}
+
+#top img{
+    width: 13%;
+    height: 12%;
+    border-radius: 60%;
+    z-index: 1;
+}
+
+#top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    color:rgba(175, 23, 221, 0.699);
+    margin-top: -50px;
+    margin-bottom: 30px;
+    font-size: 15px;
+    line-height: 0.5em;
+}
+
+nav a{
+    color:rgb(124, 16, 157);
+    background-color: rgba(255, 255, 255, .4);
+    padding: 0.5em;
+    border-radius: 1em;
+    margin-right: 10px;
+    cursor:pointer;
+    
+
+}
+.menu{
+    display: flex;
+
+    justify-content: center;
+    
+    height: 2.5em;
+    font-family: "Cormorant Garamond";
+    position: relative;
+ 
+    top:1%;
+    z-index: 1;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    display: inline;
+}
+
+#utente{
+    display: flex;
+    align-items: center;
+    
+    margin-bottom: 0px;
+}
+
+#testo{
+    display: flexbox;
+    flex-wrap: wrap;
+    border-radius: 1em;
+    margin:30px;
+    text-align: center;
+    background-color: #d456fb47;
+    padding: 40px;
+    position: relative;
+    top:10px;
+    bottom: 10px;
+    border: 1px  solid #0c0220;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    size: 100vw;
+}
+
+
+#visione{
+    display: flexbox;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+img{
+    height: 250px;
+    width: 250px;
+    margin-left: 15px ;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-right: 15px;
+    background-color: rgba(240, 248, 255, 0.562);
+    padding: 10px;
+    cursor:pointer;
+    
+    
+}
+img:hover{
+    background-color: #400c5047;
+}
+
+.disposizione{
+    align-items: center;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#visualizza{
+    display: flexbox;
+    flex-wrap: wrap;
+    height: 50px;
+    width: 50px;
+   
+
+}
+#cuore{   
+    height: 25px;
+    width: 25px;
+    border-radius: 40px;
+}
+.selez{
+    background-color: rgba(255, 240, 240, 0.76);
+    border-radius: 1em;
+    padding: 35px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 100px;
+    border: 1px solid #0c0220;
+}
+
+.barra{
+    display: none !important;
+}
+
+div.seleziona{
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+  
+}
+
+#nome{
+    
+    align-items: center;
+    display: flex;
+    flex-direction: column-reverse;
+
+}
+
+.cerca {
+    margin-top: 8px;
+}
+#vai{
+    margin: 10px;
+}
+.elem{
+    background-color: rgba(255, 240, 240, 0.76);
+    border: top 1px;
+    padding: 35px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    display: flex;
+}
+#nome img {
+    width: 150px;
+    height: 150px;
+    border-radius: 80%;
+    margin-top: 40px;
+}
+
+.el{
+    background-color: rgba(255, 240, 240, 0.76);
+    padding: 35px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-end-end-radius: 1em;
+    border-end-start-radius: 1em;
+    display: flex;
+
+}
+#scritta{
+    position: relative;
+    background-color: rgba(255, 230, 230, 0.9);
+    border-radius: 1em;
+    padding: 35px;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    border: 1px solid #0c0220;
+    
+}
+@media(max-width:500px){
+
+    img {
+        height: 100px;
+        width: 100px;
+        margin-left: 0px;
+        
+    }
+
+    .seleziona img{
+        margin-right: 0px;
+        height: 150px;
+        width: 150px;
+    }
+}

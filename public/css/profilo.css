@@ -1,0 +1,139 @@
+html{
+    background-color: rgba(147, 112, 216, 0.39);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#intestazione{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(153, 50, 204, 0.54);
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.4em;
+}
+
+.menu a{
+  
+    display: inline-flex;
+    flex-flow: wrap;
+    align-items: end;
+    color: rgba(175, 23, 221, 0.699);
+    background-color: rgba(255, 255, 255, .4);
+    padding: 0.5em;
+    border-radius: 1em;
+    align-content: space-between;
+
+}
+h1{
+    color:rgba(153, 50, 204, 0.54);
+    text-align: center;
+    
+}
+
+#foto img{
+    width: 150px;
+    height: 150px;
+    border-radius: 80%;
+    margin-top: 20px;
+}
+.foto{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#submit{
+    
+    color: blueviolet;
+    margin-top: 10px;
+    border-style: dotted;
+}
+
+.disposizione{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    color:rgba(175, 23, 221, 0.699);
+    margin-top: -50px;
+    margin-bottom: 30px;
+    font-size: 15px;
+    line-height: 0.5em;
+
+}
+
+.rimuovi{
+    display: none;
+}
+ #contenuti img{
+    height: 175px;
+    width: 175px;
+    margin-left: 15px ;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    margin-right: 15px;
+    background-color: rgba(240, 248, 255, 0.562);
+    padding: 15px;
+    cursor:pointer;
+}
+section #elimina{
+       
+        position:absolute; 
+        top:10px; 
+        left:10px;
+    }
+
+#id{
+   position: relative;
+}
+#like{
+    position: absolute;
+    color: blueviolet;
+    border-style: hidden;
+    top: 320px;
+    background-color: initial;
+}
+
+#contenuti {
+    margin-top: 20px;
+}
+
+#foto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.prefe img{
+    height: 175px;
+    width: 175px;
+    margin-left: 15px ;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    margin-right: 15px;
+    background-color: rgba(240, 248, 255, 0.562);
+    padding: 3px;
+    border-radius: 1em;
+    cursor:pointer;
+
+}
+@media(max-width:500px){
+
+    #contenuti img {
+        height: 100px;
+        width: 100px;
+        margin-left: 0px;
+    }
+    #foto img{
+        height: 120px;
+        width: 120px;
+        margin-left: 0px;
+    }
+    section .prefe{
+        height: 100px;
+        width: 100px;
+        margin-left: 10px;
+    }
+
+}

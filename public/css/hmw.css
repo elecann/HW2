@@ -1,0 +1,111 @@
+body{
+    
+    background-image: url(https://esmilufoto.lv/media/product/f/o/fotodruka-fotodruka-polaroid-kartites-fotogr%C4%81fiju-druka-foto-druka-foto-izdrukas-interneta-esmilufoto.png);
+    
+}
+#welcome{
+    font-size: larger;
+    padding: 0.5em;
+    position: relative;
+    margin-top: 300px;
+    text-align: center;
+    background-color: rgba(71, 61, 139, 0.8);
+}
+#welcome h1{
+    color:white;
+}
+#wel{
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 200px;
+}
+#wel a{
+    margin-top: 10px;
+    background-color:white; 
+    border-radius: 10px;
+    padding: 0.5em;
+}
+#overlay{
+   
+    background-color: rgba(0, 0, 0, 0.1);
+    position:absolute;
+    margin: 0px;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    height: 100%;
+    width: 100%;
+}
+.file_name{ 
+    display:flex; 
+    justify-content: space-between; 
+    align-items: center;   
+    margin:4px;  
+    font-family: Roboto Slab;
+    color: #eeab0e;
+    font-size: 20px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    z-index: 1;
+    position: relative;
+}
+
+
+p{
+    margin: 0.3em;
+}
+
+label{
+    font-family: 'Cormorant Garamond', serif;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    margin: 20px;
+    font-weight: 600;
+    border-radius: 1.5em;
+
+}
+
+form{
+    padding: 30px;
+    background-color: rgba(71, 61, 139, 0.8);
+    box-shadow: 10px 10px 5px rgba(71, 61, 139, 0.9);
+    border-radius: 1em;
+}
+form a{
+    color:purple;
+}
+
+  input {
+   margin-left: 0.5em;
+   border-radius: 1em;
+  }
+
+/* span{
+    display: none;
+} */
+
+input[type=submit]:hover {
+    background: #fa1c2c;
+}
+
+input[type=submit]:disabled, input[type=submit]:disabled:hover, input[type=submit]:disabled:active {
+    background: #7e838d;
+} 
+
+input[type=text]:focus, input[type=password]:focus {
+    border: 2px solid var(--hl_text);
+    outline-width: 0;
+}
+
+.messaggio{
+    display: none;
+}
+.errorj{
+    background-color: white;
+    
+}

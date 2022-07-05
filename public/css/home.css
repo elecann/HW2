@@ -1,0 +1,35 @@
+html{
+
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    background-image: url(https://esmilufoto.lv/media/product/f/o/fotodruka-fotodruka-polaroid-kartites-fotogr%C4%81fiju-druka-foto-druka-foto-izdrukas-interneta-esmilufoto.png);
+    height: 200px;
+    background-size: contain;
+    
+}
+
+#utente{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ad1fd8;
+    font-size: large;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.opzioni{
+    display: flex;
+    justify-content: center;
+    border-radius: 1em;
+    background-color: #d456fb47;
+    padding: 40px;
+    margin-inline: 20px;
+    border: 1px solid #dcdcdc;
+    margin-bottom: 5px;
+}
+div.opzioni:hover{
+    background-color: #ad1fd8;
+}
