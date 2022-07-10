@@ -43,10 +43,13 @@ h1{
     align-items: center;
 }
 #submit{
-    
+    border-block-color: purple;
     color: blueviolet;
     margin-top: 10px;
-    border-style: dotted;
+    
+    padding: 5px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.699);
 }
 
 .disposizione{
@@ -87,11 +90,15 @@ section #elimina{
    position: relative;
 }
 #like{
+    border-block-color: purple;
+   
+    padding: 5px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.699);
     position: absolute;
     color: blueviolet;
-    border-style: hidden;
+    margin-top: 45px;
     top: 320px;
-    background-color: initial;
 }
 
 #contenuti {
@@ -135,5 +142,6 @@ section #elimina{
         width: 100px;
         margin-left: 10px;
     }
+    
 
 }
